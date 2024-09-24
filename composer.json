@@ -1,0 +1,27 @@
+{
+    "name": "fujitsu/obrs-php",
+    "type": "package",
+    "autoload": {
+        "psr-4": {
+            "Fujitsu\\ObrsPhp\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "roshan"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "phpauth/phpauth": "^1.5",
+        "league/oauth2-server": "^8.4",
+        "svdaru/phprbac": "^2.0",
+        "aura/auth": "^4.0",
+        "ircmaxell/password-compat": "^1.0",
+        "firebase/php-jwt": "^6.10",
+        "ezyang/htmlpurifier": "^4.17",
+        "doctrine/dbal": "^3.9",
+        "guzzlehttp/guzzle": "^7.9",
+        "monolog/monolog": "^2.9"
+    }
+}
